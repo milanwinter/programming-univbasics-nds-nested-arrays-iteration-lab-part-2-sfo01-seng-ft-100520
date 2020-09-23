@@ -9,9 +9,9 @@ def find_min_in_nested_arrays(src)
         min_value = src[outer_count][inner_count]
       end
       inner_count += 1
-      new_array << min_value
     end
     outer_count += 1
+    new_array << min_value
   end
   new_array
 end
